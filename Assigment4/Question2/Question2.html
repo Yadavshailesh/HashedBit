@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>#container {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 10px;        
+}
+
+#container div {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+}
+</style>
+<body>
+    <div id="container">
+
+</div>
+<script>
+function createDiv(width, height, text) {
+    // Create a new div element
+    const newDiv = document.createElement('div');
+
+    // Set the width and height with 'px' unit
+    newDiv.style.width = width + 'px';
+    newDiv.style.height = height + 'px';
+
+    // Set the text content of the div
+    newDiv.textContent = text;
+
+    // Find the container and append the new div
+    const container = document.getElementById('container');
+    container.appendChild(newDiv);}
+    </script>
+
+</body>
+</html>

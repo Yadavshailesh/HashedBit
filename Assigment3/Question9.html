@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question9</title>
+  </head>
+  <body>
+    <h1>
+      Hey<br />
+      This is Question no. 8
+    </h1>
+    output show in console..........
+    <script>
+      function countWords(paragraph) {
+        // Remove leading and trailing whitespace
+        paragraph = paragraph.trim();
+
+        // Split the paragraph into words
+        let words = paragraph.split(/\s+/);
+
+        // Return the number of words
+        return words.length;
+      }
+
+      // Example are:
+      let paragraph = "Good Moring, I am Shailesh Yadav, I'm pursuing BCA From Hierank Bussiness School Noida";
+      console.log(countWords(paragraph));
+    </script>
+  </body>
+</html>

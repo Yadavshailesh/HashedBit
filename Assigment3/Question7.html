@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question7</title>
+  </head>
+  <body>
+    <h1>
+      Hey <br />
+      This is Question no. 7
+    </h1>
+    Output show in Console......
+    <script>
+      const students = [
+        { name: "Ram", scores: [80, 70, 60] },
+        { name: "Mohan", scores: [80, 70, 90] },
+        { name: "Sai", scores: [60, 70, 80] },
+        { name: "Hemang", scores: [90, 90, 80, 80] },
+      ];
+      const averageScores = students.map((student) => {
+        const average =
+          student.scores.reduce((a, b) => a + b, 0) / student.scores.length;
+        return { name: student.name, averageScore: average };
+      });
+
+      console.log(averageScores);
+    </script>
+  </body>
+</html>

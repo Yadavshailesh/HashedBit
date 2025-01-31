@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question11</title>
+</head>
+<body>
+    <h1>Hey<br>This is Question no.11</h1>
+    Output show in console
+    <script>
+      
+ 
+let students = [
+  { student1: { subject1: 49, subject2: 56, subject3: 87, subject4: 87, subject5: 37 } },
+  { student2: { subject1: 44, subject2: 56, subject3: 87, subject4: 97, subject5: 37 } },
+  { student3: { subject1: 44, subject2: 56, subject3: 87, subject4: 97, subject5: 87 } }
+];
+
+// Find average score for each student
+students.forEach((student, index) => {
+  let scores = Object.values(student)[0];
+  let averageScore = Object.values(scores).reduce((a, b) => a + b, 0) / Object.keys(scores).length;
+  console.log(`Student ${index + 1} Average Score: ${averageScore}`);
+});
+
+    </script>
+</body>
+</html>

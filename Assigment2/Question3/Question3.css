@@ -1,0 +1,58 @@
+body {
+     font-family: 'Times New Roman', Times, serif;
+     background-image: url(nirmala-budget-2024-2.avif);
+     position: absolute;
+     background-size: auto;
+     
+    background-size: cover;
+    
+}
+ 
+form {
+    width: 300px;
+    margin: 40px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(224, 64, 43);
+    
+}
+h1{
+    text-align: center;
+    border: #ccc;
+    color: rgb(203, 241, 33);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    background-color: #52dbfd;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d2d3f;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}

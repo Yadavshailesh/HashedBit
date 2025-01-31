@@ -1,0 +1,101 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a09082;
+    color: #e7b23e;
+    padding: 30px;
+    text-align: center;
+}
+
+.logo {
+    
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: -25px; 
+}
+.logo img{
+    height: 50px;
+    width: 110px;
+     
+}
+
+.social-links {
+    float: right;
+    margin-top: -5px;
+}
+
+.social-links img {
+    
+    height: 20px;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.menubar {
+    background-color: #444;
+    padding: 15px;
+    text-align: center;
+}
+
+.menubar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menubar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 200px;
+    float: left;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #a19b9b;
+    border: 1px solid #2b2a2a;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.box img {
+    height: 180px;
+    width: 210px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}

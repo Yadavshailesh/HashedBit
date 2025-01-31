@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qustion4</title>
+  </head>
+  <body>
+    <h1>Hey <br />This is Question no. 4<br /></h1>
+    This Web Page Show in Console.....
+    <script>
+      let str = " India is my Country, I love my Country";
+
+      let vowelCount = 0;
+      let consonantCount = 0;
+
+      for (let i = 0; i < str.length; i++) {
+        let char = str[i].toLowerCase();
+        if (char.match(/[a-z]/i)) {
+          if (char.match(/[aeiou]/i)) {
+            vowelCount++;
+          } else {
+            consonantCount++;
+          }
+        }
+      }
+
+      console.log("Vowel Count: ", vowelCount);
+      console.log("Consonant Count: ", consonantCount);
+    </script>
+  </body>
+</html>

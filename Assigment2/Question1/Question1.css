@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(233, 219, 141);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+#numbers {
+
+    margin-top: 20px;
+}

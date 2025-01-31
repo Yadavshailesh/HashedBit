@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question8</title>
+  </head>
+  <body>
+    <h1>
+      Hey<br />
+      This is Question no. 8
+    </h1>
+    output show in console..........
+    <script>
+      function singleDigit(num) {
+        while (num >= 10) {
+          num = Array.from(String(num), Number).reduce((a, b) => a + b, 0);
+        }
+        return num;
+      }
+
+      // Example:
+      console.log(singleDigit(781));
+    </script>
+  </body>
+</html>

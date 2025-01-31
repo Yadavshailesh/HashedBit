@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Function to merge two objects
+function mergeObjects(obj1, obj2) {
+  return Object.assign({}, obj1, obj2);  // Merges obj1 and obj2 into a new object
+}
+
+// Example usage
+const person = {
+  name: 'Krishn',
+  age: 35
+};
+
+const job = {
+  occupation: 'Software Developer',
+  company: 'TCS'
+};
+
+const mergedObject = mergeObjects(person, job);
+console.log(mergedObject);  
+    </script>
+</body>
+</html>
