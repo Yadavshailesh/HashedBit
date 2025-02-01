@@ -32,7 +32,7 @@ function Calculator() {
           textAlign: "center",
           color: "white",
           marginLeft: "20%",
-          marginTop: "-10%",
+          marginTop: "0%",
         }}
       >
         Calculator
@@ -59,7 +59,7 @@ function Calculator() {
           marginLeft: "12%",
           padding: "10px",
           backgroundColor: "aqua",
-          padding: "2px",
+          
           marginTop: "20px",
           width: "100%",
         }}
